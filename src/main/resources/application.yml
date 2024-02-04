@@ -1,0 +1,11 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: "projectionsandafregations"
+
+  data:
+    mongodb:
+      database: ${DB_NAME}
+      uri: mongodb+srv://${DB_USER_NAME}:${DB_PASSWORD}@${DB_HOST}
